@@ -1,0 +1,41 @@
+/* Archive CSS */
+
+.archive_post_header_1 {
+	color: white;
+	background: url(../images/nav-base-pattern.png);
+	padding: 5px 15px;
+	margin: 30px 0 5px 0;
+	border-radius: 3px;
+}
+
+.archive_post_header_2 {
+	color: white;
+	background: url(../images/nav-2-pattern.png);
+	padding: 5px 15px;
+	margin: 30px 0 5px 0;
+	border-radius: 3px;
+}
+
+.archive_post_header_3 {
+	color: white;
+	background: url(../images/nav-3-pattern.png);
+	padding: 5px 15px;
+	margin: 30px 0 5px 0;
+	border-radius: 3px;
+}
+
+.archive_post_header_4 {
+	color: white;
+	background: url(../images/nav-4-pattern.png);
+	padding: 5px 15px;
+	margin: 30px 0 5px 0;
+	border-radius: 3px;
+}
+
+.archive_post_header_5 {
+	color: white;
+	background: url(../images/nav-5-pattern.png);
+	padding: 5px 15px;
+	margin: 30px 0 5px 0;
+	border-radius: 3px;
+}
