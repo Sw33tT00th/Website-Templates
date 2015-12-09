@@ -1,0 +1,249 @@
+/*
+Theme Name: firstresponsive
+Theme URI: NULL
+Author: John Loudon
+Author URI: NULL
+Description: My first attempt at full theme development from scratch.
+Version: 0.1
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: my first responsive theme
+Text Domain: NULL
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    font-size: 100%;
+    font: inherit;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    vertical-align: baseline
+}
+
+p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#navigation__primary {
+	margin-bottom: 0;
+	width: 100%;
+	border-radius: 0;
+}
+
+#navbar__top ul li a{
+	text-align: right;
+}
+
+#main_content a,
+#main_sidebar a,
+#main_content a:hover,
+#main_sidebar a:hover {
+	text-decoration: none;
+}
+
+#header-image-container {
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+	box-shadow: 0 5px 5px #888888;
+}
+
+#main_content p {
+	font-size: 18px;
+}
+
+.sidebar_block h3,
+#main_content h2 {
+	letter-spacing: 3px;
+	text-shadow: 1px 1px #aaa;
+}
+
+.thumbnail_and_quote {
+	margin: 25px 0 0 0;
+}
+
+.portrait {
+	margin: 0 auto;
+	border: none;
+	padding: 0;
+	border-radius: 3px;
+}
+
+.abstract {
+	margin: 15px 0 15px 10px;
+	font-size: 16px !important;
+	font-style: italic;
+}
+
+.blog_link {
+	text-decoration: none;
+	color: black;
+}
+
+.blog_link h2:hover,
+.blog_link:hover {
+	color: black;
+	opacity: 0.75;
+}
+
+.post_header {
+	color: white;
+	background: url(../images/red-pattern.png);
+	padding: 5px 15px;
+	margin: 30px 0 5px 0;
+	border-radius: 3px;
+}
+
+.post_header h3 {
+	margin: 5px 0;
+}
+
+.post_date {
+	padding: 0 0 0 5px;
+	font-size: 14px !important;
+}
+
+.post_link {
+	text-decoration: none;
+	color: white;
+}
+
+.post_link div:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.read_more_link:hover {
+	text-decoration: none;
+}
+
+#content_container {
+	margin: 20px auto 0 auto;
+}
+
+.category_link {
+	color: black;
+}
+
+.sidebar_post_link {
+	color: black;
+}
+
+.sidebar_block h4 {
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+.sidebar_date {
+	color: white;
+	background: url(../images/red-pattern.png);
+	border-radius: 2px;
+	padding: 1px 0 1px 5px;
+}
+
+.archive_root {
+	list-style-type: none;
+}
+
+.archive_root li {
+	padding-top: 5px;
+}
+
+.archive_root ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+.archive_root ul li {
+	padding: 0;
+}
+
+footer {
+	background: black;
+	padding: 10px 5px;
+	margin: 20px 0 0 0;
+}
+
+footer p {
+	margin: 0;
+}

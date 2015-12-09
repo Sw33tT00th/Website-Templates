@@ -1,0 +1,260 @@
+/* 
+ * Author: John Loudon
+  *
+*/
+* {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p {
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url(../images/red-pattern.png);
+	/* background-color: #ffebeb; */
+}
+
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+header {
+	max-width: 900px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+
+	margin: 2px auto 0;
+	border-radius: 3px;
+	background-color: black;
+}
+
+header nav #site-title {
+	float: left;
+	width: 170px;
+}
+
+header nav #site-title h1 {
+	font-size: 30px;
+	padding: 5px 0 5px 15px;
+	color: white;
+}
+
+header nav #site-title a {
+	text-decoration: none;
+}
+
+header nav #site-title a:hover {
+	opacity: 0.8;
+}
+
+header nav #primary-navigation {
+	float: right;
+	text-align: right;
+	width: 700px;
+	padding: 15px 15px 17px 0;
+	color: white;
+}
+
+header nav #primary-navigation ul {
+	list-style: none;
+}
+
+header nav #primary-navigation ul li {
+	display: inline;
+	margin: 0 25px 0 0;
+}
+
+header nav #primary-navigation ul li a {
+	display: inline;
+	text-decoration: none;
+	color: white;
+}
+
+header nav #primary-navigation ul li a:hover {
+	opacity: 0.8;
+}
+
+#content-wrapper {
+	max-width: 900px;
+	width: 100%;
+	min-height: 100%;
+	margin: 10px auto 0;
+	background-color: #ffebeb;
+	border-radius: 3px;
+	box-shadow: 0 0 50px #382121;
+}
+
+#main-content, aside {
+	border-radius: 3px;
+	
+}
+
+#main-content {
+	float: right;
+	width: 650px;
+
+	padding: 0 10px 0 0;
+	margin-top: 20px;
+}
+
+#page-title {
+	text-shadow: 1px 1px #666;
+	letter-spacing: 4px;
+	text-align: center;
+	font-size: 35px;
+	padding: 20px 0 0 0;
+	margin: 10px 0 20px;
+}
+
+#main-content p {
+	font-size: 18px;
+	margin: 10px 0 0 0;
+}
+
+blockquote cite {
+	text-align: right;
+	margin-right: 30px;
+}
+
+blockquote {
+	background: url(../images/orange-pattern-reverse.png);
+
+	color: white;
+	width: 400px;
+	float: right;
+
+	margin: 10px -10px 10px 10px !important;
+	padding: 20px 10px 20px 20px;
+
+	font-size: 20px;
+	font-style: italic;
+	text-shadow: 1px 1px black;
+
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: -5px 5px 10px #888888;
+}
+
+aside {
+	float: left;
+	width: 230px;
+
+	margin-top: 32px;
+	padding: 0 0 0 10px;
+}
+
+aside nav a {
+	width: 200px;
+	background: url(../images/nav-base-pattern.png);
+
+	color: white;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding: 0.5em 0 0.5em 10px;
+	margin: 5px 0 0 -10px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+aside nav a:hover {
+	opacity: 0.8;
+}
+
+aside nav a:nth-child(3) {
+	background: url(../images/nav-2-pattern.png);
+}
+
+aside nav a:nth-child(4) {
+	background: url(../images/nav-3-pattern.png);
+}
+
+aside nav a:nth-child(5) {
+	background: url(../images/nav-4-pattern.png);
+}
+
+aside nav a:nth-child(6) {
+	background: url(../images/nav-5-pattern.png);
+}
+
+aside nav {
+	margin: 0 0 20px 0;
+}
+
+aside .sidebar-widget {
+	width: 200px;
+	margin: 15px 0 0 0;
+}
+
+aside .sidebar-widget a {
+	color: black;
+}
+
+aside h3 {
+	font-weight: normal;
+	text-shadow: 1px 1px #666;
+	letter-spacing: 3px;
+	margin: 25px 0 10px 0;
+}
+
+aside h4 {
+	letter-spacing: 1px;
+	margin: 0 0 5px 0;
+}
+
+aside div .date {
+	background: url(../images/orange-pattern.png);
+
+	width: 200px;
+	margin: 0 0 5px -10px;
+	padding: 0.5em 10px 0.5em 0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	text-align: right;
+	font-size: 12px;
+	color: white;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+footer, #content-wrapper:after {
+	font-size: 12px;
+	height: 30px;
+	max-width: 900px;
+	width: 100%;
+	bottom: 0;
+	color: white;
+
+	margin: 10px auto 0 auto;
+}
+
+#footer-quote {
+	max-width: 450px;
+	width: 50%;
+	float: left;
+}
+
+#copyright {
+	max-width: 450px;
+	width: 50%;
+	float: right;
+	text-align: right;
+}
