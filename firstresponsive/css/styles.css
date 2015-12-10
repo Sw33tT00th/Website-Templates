@@ -178,6 +178,21 @@ p {
 	margin: 5px 0;
 }
 
+.related_article_header {
+	color: white;
+	background: url(../images/red-pattern.png);
+	padding: 5px 15px;
+	margin: 30px 0 5px 0;
+	border-radius: 3px;
+}
+
+.post_link:hover,
+.related_article_header:hover,
+.related_article_header p:hover,
+.related_article_header h4:hover {
+	text-decoration: none;
+}
+
 .post_date {
 	padding: 0 0 0 5px;
 	font-size: 14px !important;
