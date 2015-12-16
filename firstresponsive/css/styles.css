@@ -116,6 +116,8 @@ p {
 
 #main_content a,
 #main_sidebar a,
+#main_content a:focus,
+#main_sidebar a:focus,
 #main_content a:hover,
 #main_sidebar a:hover {
 	text-decoration: none;
@@ -160,6 +162,8 @@ p {
 	color: black;
 }
 
+.blog_link h2:focus,
+.blog_link:focus,
 .blog_link h2:hover,
 .blog_link:hover {
 	color: black;
@@ -186,6 +190,7 @@ p {
 	border-radius: 3px;
 }
 
+.post_link:focus,
 .post_link:hover,
 .related_article_header:hover,
 .related_article_header p:hover,
@@ -277,6 +282,7 @@ footer h4 {
 	color: grey;
 }
 
+.footer_main_nav_link:focus,
 .footer_main_nav_link:hover,
 .footer_main_nav:hover {
 	text-decoration: none;
@@ -286,7 +292,27 @@ footer h4 {
 	background-color: white;
 }
 
+.footer_block_archive div {
+	text-align: center;
+}
+
+.footer_block_archive li {
+	text-indent: -10px;
+}
+
 #copyright {
 	text-align: right;
 	color: grey;
+}
+
+.collapse.width {
+    height: auto;
+    -webkit-transition: width 0.35s ease;
+    -moz-transition: width 0.35s ease;
+    -o-transition: width 0.35s ease;
+    transition: width 0.35s ease;
+}
+
+.hidden {
+	display: none;
 }
